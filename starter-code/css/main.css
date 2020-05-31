@@ -1,11 +1,4 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
@@ -151,12 +144,16 @@ h3{
 }
 
 .greenbox{
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     margin-bottom: 3%;
     padding: 15px;
-    background-color: #00B172;
+    background-color: rgb(27,177,106);
     position: relative;
+}
+
+.greenbox-search {
+    margin-top: 40px;
 }
 
 .greenbox > div{
@@ -170,13 +167,11 @@ h3{
 
 .kanye-text{
     border-bottom: 3px solid #ffffff;
-    box-sizing: content-box;
-    display: inline-block;
+    width: 416px;
+    padding-bottom: 10px;
 }
 
-.greenbox-kanye{
-    padding: 50px;
-}
+
 
 .greenbox-kanye > div{
     width: 80%;
@@ -199,7 +194,9 @@ h3{
 }
 
 .kanye-image{
-    width: 100%;
+    margin-top: 35px;
+    width: 320px;
+    height: 520px;
 }
 
 .spotify-logo{
@@ -207,8 +204,8 @@ h3{
     position: absolute;
     overflow: hidden;
     text-align: center;
-    top: 30%;
-    left: 19%;
+    top: 35%;
+    left: 22%;
 }
 
 .icon-white{
